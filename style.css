@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e7f2ff, #b3d4fc);
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2rem;
+    background: #4a90e2;
+    color: #fff;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Feature Boxes */
+.feature-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+/* Prototype Image */
+.prototype-img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+/* Buttons */
+button {
+    background: #3d78e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Comparison Table */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+}
+
+.comparison-table th, .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.comparison-table th {
+    background: #3d78e2;
+    color: #fff;
+    text-align: left;
+}
+
+.comparison-table td {
+    background: #ffffff;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #4a90e2;
+    color: #fff;
+    position: relative;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .prototype-img {
+        width: 100%;
+    }
+}
